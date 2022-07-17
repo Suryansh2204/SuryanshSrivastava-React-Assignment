@@ -28,7 +28,6 @@ const Favourites = () => {
   }, []);
 
   const Call = useCallback(() => {
-    console.log("ran")
     const filteredMovies = movies.filter(movie => movie.title.toLowerCase().includes(search));
     if (!filteredMovies.length) return (
         <Found>No Movies Found</Found>
