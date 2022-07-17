@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import iMovies from "../models/iMovies";
 import { addMovie, getMovies, removeMovie } from "../services/favourites";
-import Details from "./Details";
 
 type Props = {
   movie: iMovies,
